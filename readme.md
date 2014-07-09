@@ -1,11 +1,8 @@
 ## Description 
 
-<br>
 **Intruducing BLSFloatingContainer** - 
 
-<center><img src="https://raw.githubusercontent.com/blstream/BLSFloatingContainer/development/Documentation/demo.gif"></center>
-
-## Features
+-> <img src="https://raw.githubusercontent.com/blstream/BLSFloatingContainer/development/Documentation/demo.gif"> <-
 
 ## Requirements
 
@@ -13,20 +10,17 @@
 - Requires iOS7 or later
 
 ## Installation
-###With CocoaPods
+####With CocoaPods
 Fastest way is using  [CocoaPods](http://www.cocoapods.org). Simply add  `pod 'BLSFloatingContainer'` to Podfile in your project. 
 
-###Without CocoaPods
+####Without CocoaPods
 Download sourcefiles and add it manually or add it as a submodule. Here's how to add it as a submodule:
 
     $ cd YourProject
     $ git submodule add https://github.com/blstream/BLSFloatingContainer.git submodules/BLSFloatingContainer
 
 
-## Usage
-
 ## Future features
-
 - Multi-orientations support
 - Changing size of container
 
