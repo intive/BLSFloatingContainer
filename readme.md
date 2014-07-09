@@ -20,7 +20,7 @@ Fastest way is using  [CocoaPods](http://www.cocoapods.org). Simply add  `pod 'B
 Download sourcefiles and add it manually or add it as a submodule. Here's how to add it as a submodule:
 
     $ cd YourProject
-    $ git submodule add GITHUB-LINK submodules/BLSFloatingContainer
+    $ git submodule add https://github.com/blstream/BLSFloatingContainer.git submodules/BLSFloatingContainer
 
 
 ## Usage
