@@ -25,7 +25,7 @@ Download sourcefiles and add it manually or add it as a submodule. Here's how to
 - Changing size of container
 
 ##Consulting
-If you have any questions, or suggestions feel free to get in touch via mail  ([banas.arek@gmail.com](mailto:banas.arek@gmail.com)) or Twitter @Arkadiusz_Banas.
+If you have any questions, or suggestions feel free to get in touch via mail  ([arkadiusz.banas@blstream.com](mailto:arkadiusz.banas@blstream.com)) or Twitter @Arkadiusz_Banas.
 
 
 ## License
