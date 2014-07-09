@@ -20,20 +20,7 @@
 		37A093F1195F351A0027429F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A093F0195F351A0027429F /* Foundation.framework */; };
 		37A093F3195F351A0027429F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A093F2195F351A0027429F /* CoreGraphics.framework */; };
 		37A093F5195F351A0027429F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A093F4195F351A0027429F /* UIKit.framework */; };
-		37A09410195F351A0027429F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A0940F195F351A0027429F /* XCTest.framework */; };
-		37A09411195F351A0027429F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A093F0195F351A0027429F /* Foundation.framework */; };
-		37A09412195F351A0027429F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A093F4195F351A0027429F /* UIKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		37A09413195F351A0027429F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37A093E5195F351A0027429F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 37A093EC195F351A0027429F;
-			remoteInfo = BLSFloatingContainer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3745FCE31966A7F1007378B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,7 +45,6 @@
 		37A093F0195F351A0027429F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37A093F2195F351A0027429F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		37A093F4195F351A0027429F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		37A0940E195F351A0027429F /* BLSFloatingContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLSFloatingContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A0940F195F351A0027429F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -70,16 +56,6 @@
 				37A093F3195F351A0027429F /* CoreGraphics.framework in Frameworks */,
 				37A093F5195F351A0027429F /* UIKit.framework in Frameworks */,
 				37A093F1195F351A0027429F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37A0940B195F351A0027429F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				37A09410195F351A0027429F /* XCTest.framework in Frameworks */,
-				37A09412195F351A0027429F /* UIKit.framework in Frameworks */,
-				37A09411195F351A0027429F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				37A093ED195F351A0027429F /* BLSFloatingContainer.app */,
-				37A0940E195F351A0027429F /* BLSFloatingContainerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,24 +143,6 @@
 			productReference = 37A093ED195F351A0027429F /* BLSFloatingContainer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37A0940D195F351A0027429F /* BLSFloatingContainerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 37A09422195F351A0027429F /* Build configuration list for PBXNativeTarget "BLSFloatingContainerTests" */;
-			buildPhases = (
-				37A0940A195F351A0027429F /* Sources */,
-				37A0940B195F351A0027429F /* Frameworks */,
-				37A0940C195F351A0027429F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				37A09414195F351A0027429F /* PBXTargetDependency */,
-			);
-			name = BLSFloatingContainerTests;
-			productName = BLSFloatingContainerTests;
-			productReference = 37A0940E195F351A0027429F /* BLSFloatingContainerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,11 +152,6 @@
 				CLASSPREFIX = BLS;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Arkadiusz Banaś";
-				TargetAttributes = {
-					37A0940D195F351A0027429F = {
-						TestTargetID = 37A093EC195F351A0027429F;
-					};
-				};
 			};
 			buildConfigurationList = 37A093E8195F351A0027429F /* Build configuration list for PBXProject "BLSFloatingContainer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -215,7 +167,6 @@
 			projectRoot = "";
 			targets = (
 				37A093EC195F351A0027429F /* BLSFloatingContainer */,
-				37A0940D195F351A0027429F /* BLSFloatingContainerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,13 +181,6 @@
 				3745FCFC1966A7F1007378B3 /* InfoPlist.strings in Resources */,
 				3745FCF51966A7F1007378B3 /* Main.storyboard in Resources */,
 				3745FD081966B403007378B3 /* song.mp3 in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		37A0940C195F351A0027429F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,22 +199,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37A0940A195F351A0027429F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		37A09414195F351A0027429F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 37A093EC195F351A0027429F /* BLSFloatingContainer */;
-			targetProxy = 37A09413195F351A0027429F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3745FCE21966A7F1007378B3 /* Main.storyboard */ = {
@@ -388,46 +317,6 @@
 			};
 			name = Release;
 		};
-		37A09423195F351A0027429F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLSFloatingContainer.app/BLSFloatingContainer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BLSFloatingContainerDemo/BLSFloatingContainer-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "BLSFloatingContainerTests/BLSFloatingContainerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		37A09424195F351A0027429F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BLSFloatingContainer.app/BLSFloatingContainer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BLSFloatingContainerDemo/BLSFloatingContainer-Prefix.pch";
-				INFOPLIST_FILE = "BLSFloatingContainerTests/BLSFloatingContainerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,15 +334,6 @@
 			buildConfigurations = (
 				37A09420195F351A0027429F /* Debug */,
 				37A09421195F351A0027429F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		37A09422195F351A0027429F /* Build configuration list for PBXNativeTarget "BLSFloatingContainerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37A09423195F351A0027429F /* Debug */,
-				37A09424195F351A0027429F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
