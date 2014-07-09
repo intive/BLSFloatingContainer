@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLSViewController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLSViewController</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSViewController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSViewController/setCanCloseSwitch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISwitch *canCloseSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/canCloseSwitch</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSViewController/canCloseSwitch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISwitch *canCloseSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/canCloseSwitch</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLSViewController/canCloseSwitch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISwitch *canCloseSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/canCloseSwitch</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSViewController/setAnimationSwitch:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISwitch *animationSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/animationSwitch</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSViewController/animationSwitch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISwitch *animationSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/animationSwitch</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLSViewController/animationSwitch</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSViewController.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) IBOutlet UISwitch *animationSwitch</Declaration>
+			
+			
+			<Anchor>//api/name/animationSwitch</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

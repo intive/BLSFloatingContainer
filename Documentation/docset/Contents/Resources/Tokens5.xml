@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BLSFloatingContainerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BLSFloatingContainerDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSFloatingContainerDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSFloatingContainerDelegate/canCloseFloatingPlayerContainer:</TokenIdentifier>
+			<Abstract type="html">Tells the container if it can be closed by swiping beyond screen</Abstract>
+			<DeclaredIn>BLSFloatingContainerDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/BLSFloatingContainer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (BOOL)canCloseFloatingPlayerContainer:(BLSFloatingContainer *)container</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>container</Name>
+					<Abstract type="html">The container object requesting this information.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">BOOL indicator of possibility of closing container by swipping beyond screen</Abstract></ReturnValue>
+			<Anchor>//api/name/canCloseFloatingPlayerContainer:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSFloatingContainerDelegate/floatingContainer:willMoveToPosition:</TokenIdentifier>
+			<Abstract type="html">Called when container will move to different positions in minimized state.</Abstract>
+			<DeclaredIn>BLSFloatingContainerDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/BLSFloatingContainer</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)floatingContainer:(BLSFloatingContainer *)container willMoveToPosition:(BLSFloatingContainerPosition)position</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>container</Name>
+					<Abstract type="html">The container object that is making this request.</Abstract>
+				</Parameter><Parameter>
+					<Name>position</Name>
+					<Abstract type="html">New position for minimized container</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/floatingContainer:willMoveToPosition:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSFloatingContainerDelegate/floatingContainer:didMoveToPosition:</TokenIdentifier>
+			<Abstract type="html">Called when container did move to different positions in minimized state.</Abstract>
+			<DeclaredIn>BLSFloatingContainerDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/BLSFloatingContainer</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)floatingContainer:(BLSFloatingContainer *)container didMoveToPosition:(BLSFloatingContainerPosition)position</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>container</Name>
+					<Abstract type="html">The container object that is making this request.</Abstract>
+				</Parameter><Parameter>
+					<Name>position</Name>
+					<Abstract type="html">New position for minimized container</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/floatingContainer:didMoveToPosition:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSFloatingContainerDelegate/floatingContainer:willChangeState:andContainerSize:</TokenIdentifier>
+			<Abstract type="html">Called when container will change state.</Abstract>
+			<DeclaredIn>BLSFloatingContainerDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/BLSFloatingContainer</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)floatingContainer:(BLSFloatingContainer *)container willChangeState:(BLSFloatingContainerState)state andContainerSize:(CGSize)containerSize</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>container</Name>
+					<Abstract type="html">The container object that is making this request.</Abstract>
+				</Parameter><Parameter>
+					<Name>state</Name>
+					<Abstract type="html">New state of container.</Abstract>
+				</Parameter><Parameter>
+					<Name>containerSize</Name>
+					<Abstract type="html">New container size.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/floatingContainer:willChangeState:andContainerSize:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSFloatingContainerDelegate/floatingContainer:didChangedState:andContainerSize:</TokenIdentifier>
+			<Abstract type="html">Called when container did change state.</Abstract>
+			<DeclaredIn>BLSFloatingContainerDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/BLSFloatingContainer</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)floatingContainer:(BLSFloatingContainer *)container didChangedState:(BLSFloatingContainerState)state andContainerSize:(CGSize)containerSize</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>container</Name>
+					<Abstract type="html">The container object that is making this request.</Abstract>
+				</Parameter><Parameter>
+					<Name>state</Name>
+					<Abstract type="html">New state of container.</Abstract>
+				</Parameter><Parameter>
+					<Name>containerSize</Name>
+					<Abstract type="html">New container size.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/floatingContainer:didChangedState:andContainerSize:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BLSFloatingContainerDelegate/floatingContainer:didPanWithCenterPoint:</TokenIdentifier>
+			<Abstract type="html">Called during container panning.</Abstract>
+			<DeclaredIn>BLSFloatingContainerDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/BLSFloatingContainer</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)floatingContainer:(BLSFloatingContainer *)container didPanWithCenterPoint:(CGPoint)center</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>container</Name>
+					<Abstract type="html">The container object that is making this request.</Abstract>
+				</Parameter><Parameter>
+					<Name>center</Name>
+					<Abstract type="html">New coneter point of container.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/floatingContainer:didPanWithCenterPoint:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

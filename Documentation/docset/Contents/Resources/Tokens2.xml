@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BLSFloatingContainer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BLSFloatingContainer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/setMinizmiedContainerSize:</TokenIdentifier>
+			<Abstract type="html">Size of minimized container</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize minizmiedContainerSize</Declaration>
+			
+			
+			<Anchor>//api/name/minizmiedContainerSize</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/minizmiedContainerSize</TokenIdentifier>
+			<Abstract type="html">Size of minimized container</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize minizmiedContainerSize</Declaration>
+			
+			
+			<Anchor>//api/name/minizmiedContainerSize</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLSFloatingContainer/minizmiedContainerSize</TokenIdentifier>
+			<Abstract type="html">Size of minimized container</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize minizmiedContainerSize</Declaration>
+			
+			
+			<Anchor>//api/name/minizmiedContainerSize</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/setMinimizedContainerPosition:</TokenIdentifier>
+			<Abstract type="html">Position of minimized container</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BLSFloatingContainerPosition minimizedContainerPosition</Declaration>
+			
+			
+			<Anchor>//api/name/minimizedContainerPosition</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/minimizedContainerPosition</TokenIdentifier>
+			<Abstract type="html">Position of minimized container</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BLSFloatingContainerPosition minimizedContainerPosition</Declaration>
+			
+			
+			<Anchor>//api/name/minimizedContainerPosition</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLSFloatingContainer/minimizedContainerPosition</TokenIdentifier>
+			<Abstract type="html">Position of minimized container</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BLSFloatingContainerPosition minimizedContainerPosition</Declaration>
+			
+			
+			<Anchor>//api/name/minimizedContainerPosition</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/setState:</TokenIdentifier>
+			<Abstract type="html">Current container state</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BLSFloatingContainerState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/state</TokenIdentifier>
+			<Abstract type="html">Current container state</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BLSFloatingContainerState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLSFloatingContainer/state</TokenIdentifier>
+			<Abstract type="html">Current container state</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, readonly) BLSFloatingContainerState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/setMinimizedContainerMargins:</TokenIdentifier>
+			<Abstract type="html">Container margins (left, top, bottom, right) in minimized state.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets minimizedContainerMargins</Declaration>
+			
+			
+			<Anchor>//api/name/minimizedContainerMargins</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/minimizedContainerMargins</TokenIdentifier>
+			<Abstract type="html">Container margins (left, top, bottom, right) in minimized state.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets minimizedContainerMargins</Declaration>
+			
+			
+			<Anchor>//api/name/minimizedContainerMargins</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLSFloatingContainer/minimizedContainerMargins</TokenIdentifier>
+			<Abstract type="html">Container margins (left, top, bottom, right) in minimized state.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) UIEdgeInsets minimizedContainerMargins</Declaration>
+			
+			
+			<Anchor>//api/name/minimizedContainerMargins</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the receiving container.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/BLSFloatingContainerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (weak, nonatomic) id&lt;BLSFloatingContainerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the receiving container.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/BLSFloatingContainerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (weak, nonatomic) id&lt;BLSFloatingContainerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BLSFloatingContainer/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the receiving container.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/BLSFloatingContainerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (weak, nonatomic) id&lt;BLSFloatingContainerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/initWithController:andMinimizedContainerSize:</TokenIdentifier>
+			<Abstract type="html">Initialization. Controller can be nil, but you will have to add subview manually</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/BLSFloatingContainerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (id)initWithController:(UIViewController&lt;BLSFloatingContainerDelegate&gt; *)controller andMinimizedContainerSize:(CGSize)containerSize</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>controller</Name>
+					<Abstract type="html">Controller inside of container. This controller will have assigned BLSFLoatingContainerDelegate automatically</Abstract>
+				</Parameter><Parameter>
+					<Name>containerSize</Name>
+					<Abstract type="html">Size of minimized container</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Initialized BLSFloatingContainer object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithController:andMinimizedContainerSize:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/addToWindow:atPostion:andState:</TokenIdentifier>
+			<Abstract type="html">Call this method after initialization to add container to UIWindow object. This method should be called only once for each BLSFloatingContainer object.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)addToWindow:(UIWindow *)window atPostion:(BLSFloatingContainerPosition)position andState:(BLSFloatingContainerState)state</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>window</Name>
+					<Abstract type="html">Add container to this window object</Abstract>
+				</Parameter><Parameter>
+					<Name>position</Name>
+					<Abstract type="html">First minimized container position</Abstract>
+				</Parameter><Parameter>
+					<Name>state</Name>
+					<Abstract type="html">First container state</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addToWindow:atPostion:andState:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/changePosition:withAnimation:</TokenIdentifier>
+			<Abstract type="html">Changing positions of minimized container.</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)changePosition:(BLSFloatingContainerPosition)position withAnimation:(BOOL)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">New position of minimized container</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">Constant that indicates whether there should be an animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/changePosition:withAnimation:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BLSFloatingContainer/changeState:withAnimation:</TokenIdentifier>
+			<Abstract type="html">Changing container state. Use it to maxmize, minimize or close container</Abstract>
+			<DeclaredIn>BLSFloatingContainer.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerState</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)changeState:(BLSFloatingContainerState)state withAnimation:(BOOL)animation</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>state</Name>
+					<Abstract type="html">New state of container</Abstract>
+				</Parameter><Parameter>
+					<Name>animation</Name>
+					<Abstract type="html">Constant that indicates whether there should be an animation.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/changeState:withAnimation:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

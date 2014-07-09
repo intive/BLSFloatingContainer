@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/BLSFloatingContainerPosition.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/BLSFloatingContainerPosition</TokenIdentifier>
+			<Abstract type="html">Options of minimized container positions.</Abstract>
+			<DeclaredIn>BLSFloatingContainerEnums.h</DeclaredIn>
+            
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLSFloatingContainerPositionTopLeft</TokenIdentifier>
+            <Abstract type="html">Position in top, left corner of window.
+     </Abstract>
+            <Declaration>BLSFloatingContainerPositionTopLeft</Declaration>
+            
+            <DeclaredIn>BLSFloatingContainerEnums.h</DeclaredIn>
+            
+            <NodeRef refid="6"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLSFloatingContainerPositionTopRight</TokenIdentifier>
+            <Abstract type="html">Position in top, right corner of window.
+     </Abstract>
+            <Declaration>BLSFloatingContainerPositionTopRight</Declaration>
+            
+            <DeclaredIn>BLSFloatingContainerEnums.h</DeclaredIn>
+            
+            <NodeRef refid="6"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLSFloatingContainerPositionBottomLeft</TokenIdentifier>
+            <Abstract type="html">Position in bottom, left corner of window.
+     </Abstract>
+            <Declaration>BLSFloatingContainerPositionBottomLeft</Declaration>
+            
+            <DeclaredIn>BLSFloatingContainerEnums.h</DeclaredIn>
+            
+            <NodeRef refid="6"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/BLSFloatingContainerPositionBottomRight</TokenIdentifier>
+            <Abstract type="html">Position in bottom, right corner of window.
+     </Abstract>
+            <Declaration>BLSFloatingContainerPositionBottomRight</Declaration>
+            
+            <DeclaredIn>BLSFloatingContainerEnums.h</DeclaredIn>
+            
+            <NodeRef refid="6"/>
+        </Token>
+        
+	</File>
+</Tokens>
