@@ -29,5 +29,4 @@ If you have any questions, or suggestions feel free to get in touch via mail  ([
 
 
 ## License
-BLSFloatingContainer is under Apache 2.0 license. For detail [click here](http://www.apache.org/licenses/LICENSE-2.0.html).
-
+BLSFloatingContainer is available under the Apache 2.0 license. For detail [click here](http://www.apache.org/licenses/LICENSE-2.0.html).
