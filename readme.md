@@ -3,7 +3,7 @@
 <br>
 **Intruducing BLSFloatingContainer** - 
 
-<center><img src="/Users/arek/Desktop/floating.gif/"></center>
+<center><img src="https://raw.githubusercontent.com/blstream/BLSFloatingContainer/development/Documentation/demo.gif"></center>
 
 ## Features
 
